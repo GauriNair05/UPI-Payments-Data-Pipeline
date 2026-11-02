@@ -1,0 +1,21 @@
+PASS  | row count matches pipeline metrics         | 493043 vs 493043
+PASS  | raw = clean + rejected                     | 502500 = 493043 + 9457
+PASS  | txn_id unique                              | 
+PASS  | no nulls in txn_id                         | 0 nulls
+PASS  | no nulls in txn_ts                         | 0 nulls
+PASS  | no nulls in amount_inr                     | 0 nulls
+PASS  | no nulls in status                         | 0 nulls
+PASS  | no nulls in sender_key                     | 0 nulls
+PASS  | no nulls in receiver_key                   | 0 nulls
+PASS  | no nulls in sender_bank_id                 | 0 nulls
+PASS  | no nulls in receiver_bank_id               | 0 nulls
+PASS  | no nulls in category_id                    | 0 nulls
+PASS  | no nulls in date_key                       | 0 nulls
+PASS  | amount in (0, 1,00,000]                    | 
+PASS  | status valid                               | 
+PASS  | no self transfers                          | 
+PASS  | sender_bank_id exists in dim_bank          | 
+PASS  | receiver_bank_id exists in dim_bank        | 
+PASS  | category_id exists in dim_category         | 
+PASS  | date_key exists in dim_date                | 
+PASS  | no raw VPAs in curated data                | 

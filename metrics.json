@@ -1,0 +1,22 @@
+{
+  "raw_rows": 502500,
+  "clean_rows": 493043,
+  "rejected_rows": 9457,
+  "rejected_pct": 1.88,
+  "rejection_breakdown": {
+    "duplicate_txn_id": 2494,
+    "non_positive_amount": 2482,
+    "missing_required_field": 1006,
+    "invalid_timestamp": 994,
+    "invalid_amount": 991,
+    "timestamp_out_of_range": 500,
+    "over_upi_limit": 496,
+    "self_transfer": 494
+  },
+  "success_rate_pct": 95.52,
+  "flagged_pct": 0.069,
+  "successful_value_inr": 390732931.77,
+  "banks": 12,
+  "categories": 13,
+  "days": 365
+}
